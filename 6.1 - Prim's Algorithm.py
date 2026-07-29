@@ -14,7 +14,7 @@ def prim(graph):
             continue    #it skips the iteration
 
         #if current node was not visited
-        visited.add(current)
+        visited.add(current)    #add the current node's name to visited set()
 
         if parent is not None:    #is current node is not the start node
             mst.append((parent, current, weight))    #add the weighted edge for the current node, from its parent
